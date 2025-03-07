@@ -1,3 +1,3 @@
 ## Blog Pribadi
 
-website ini berisi tentang diri saya. Dan juga website ini berisi foto hewan, tumbuhan, atau fungi yang saya temukan beserta taksonominya. 
+Website ini berisi pengamatan saya tentang makhluk hidup disekitar. Website ini juga berisi foto hewan, tumbuhan, atau bahkan fungi yang saya temukan beserta deskripsi taksonominya. Website ini akan di update secara berkala ketika saya ingin memasukkan spesies-spesies baru. 
