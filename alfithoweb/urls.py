@@ -1,5 +1,5 @@
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 
 #menampilkan gambar yang sudah di upload di folder media#
 from django.conf import settings
@@ -11,8 +11,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     
     path('', home, name="home"),
-    path('about/', about, name="about"),
-    path('kutipan/', kutipan, name="kutipan"),
+    path('dashboard', include('berita.urls')),
+    
 ]
 
 #menampilkan gambar yang sudah di upload di folder media#

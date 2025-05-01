@@ -2,7 +2,7 @@ from django.shortcuts import render
 import random
 
 def home(request):
-    template_name = "home.html"
+    template_name = "halaman/index.html"
     context = {
         'title' : 'selamat datang di halaman home',
         'umur' : 21,
