@@ -6,12 +6,12 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 
-from alfithoweb.views import home, about, kutipan
+from alfithoweb.views import home
 urlpatterns = [
     path('admin/', admin.site.urls),
     
     path('', home, name="home"),
-    path('dashboard', include('berita.urls')),
+    path('dashboard/', include('berita.urls')),
     
 ]
 
